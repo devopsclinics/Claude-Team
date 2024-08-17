@@ -7,3 +7,4 @@ Here are the important links related to the project:
 - **Deployed Application**: [Deployed App](http://34.28.133.93/)
 
 You can use these links to access the project's source code, Jenkins pipeline, and the live deployed application.
+
