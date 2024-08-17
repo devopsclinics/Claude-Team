@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Feedback Form</title>
     <style>
         body {
@@ -74,10 +75,37 @@
         input[type="submit"]:hover {
             background-color: #0056b3;
             color: white;
+=======
+    <title>Changing Colorful Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 1400% 1400%;
+            animation: GradientShift 15s ease infinite;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes GradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+>>>>>>> 0819ad32d44ec621ac2712006e1ee2a1e531c6a6
         }
     </style>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="form-container">
         <h1>Feedback Form - feature-tunde</h1>
         <form action="feedback.php" method="post">
@@ -104,3 +132,8 @@
     </div>
 </body>
 </html>
+=======
+    <h1>Welcome to a Changing Colorful Background at DevopClinics at branch feature-tunde!</h1>
+</body>
+</html>
+>>>>>>> 0819ad32d44ec621ac2712006e1ee2a1e531c6a6
