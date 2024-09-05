@@ -1,0 +1,5 @@
+---
+- hosts: 34.72.212.224 #node1 #34.170.154.176   34.170.26.100
+  become: yes
+  roles:
+    - mongodb_role
