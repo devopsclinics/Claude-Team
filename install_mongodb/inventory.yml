@@ -1,13 +1,6 @@
 ---
 all:
   hosts:
-    node1:
-      ansible_user: demos2
-    node2:
-      ansible_user: demos3
     34.72.212.224:
       ansible_user: saheed
-    34.170.154.176:
-      ansible_user: saheed
-    34.170.26.100:
-      ansible_user: saheed
+    
